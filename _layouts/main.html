@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/scripts/site.js"></script>
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <title>{{site.title}}</title>
+</head>
+<body >
+    <div class="site">
+        <header class="site-header">
+            {% if page.home == true %}
+                <h1 class="site-title">
+                    <a href="/">{{site.title}}</a>
+                </h1>
+            {% else %}
+                <p class="site-title">
+                    <a href="/">{{site.title}}</a>
+                </p>
+            {% endif %}
+            {% include navigation.html location="header" %}
+        </header>
+        <main class="site-main">
+            {% if page.title %}
+                <h1>{{page.title}}</h1>
+            {% endif%}
+            {{content}}
+        </main>
+
+        {% include sitebar.html %}
+
+        <footer class="site-footer">
+            <p>All rights reserved &copy; {{site.title}}</p>
+            {% include navigation.html location="footer" %}
+        </footer>
+    </div>
+</body>
+</html>
