@@ -11,24 +11,23 @@ html {
     font: var(--font-size-body, 14px)/1.5 "Fira Sans", Georgia, serif;
 }
 
-@media (min-width: 600px) {
-    html {font-size: var(--font-size-body-larger, 16px); }
+@media ( min-width: 600px ) {
+    html { font-size: var(--font-size-body-larger, 16px); }
 }
 
-@media (min-width: 1024) {
-    html {font-size: var(--font-size-body-big, 18px);  }
+@media ( min-width: 1024px ) {
+    html { font-size: var(--font-size-body-big, 18px); }
 }
 
-@media (min-width: 1600px) {
-    html {font-size: var(--font-size-body-huge, 20px); }
+@media ( min-width: 1600px ) {
+    html { font-size: var(--font-size-body-huge, 20px); }
 }
 
 body, table, form, select, option, input, textarea {
     font: inherit;
-    background: var(--color-body-bgrd, #fff);
+    background: var(--color-body-bgrd, #FFF);
     color: var(--color-body-text, #000);
 }
-
 
 .site-title,
 h1, h2, h3, h4, h5, h6 {

@@ -9,4 +9,9 @@
 
 @import url('navigation.css');
 
+/* @import url('transtions.css'); */
 @import url('animations.css');
+
+@import url('modal.css');
+
+@import url('gallery-grid.css');
