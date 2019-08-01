@@ -38,3 +38,39 @@
 .site-nav a:hover i.fas:before {
     color: #FFF;
 }
+
+.site-nav > ul > li {
+    position: relative;
+}
+
+.site-nav > ul > li ul{
+    display: none;
+}
+
+
+.site-nav > ul > li:hover > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%; right: 0;
+    width: 100%;
+}
+
+.site-nav > ul > li ul li {
+    margin: 0;
+    padding: 0 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.site-nav > ul > li ul li:first-child {
+   display: none;
+}
+
+.site-nav li:hover > a,
+.site-nav ul li a:hover {
+    background: darkcyan;
+}
+

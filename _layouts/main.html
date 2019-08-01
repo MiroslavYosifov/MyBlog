@@ -32,17 +32,17 @@
 
         </header>
 
-        <main class="site-main">
-            {% include calendar.html %}
-            {% if page.title %}
-                <h1>{{page.title}}</h1>
-            {% endif %}
-
-            {{content}}
-
-        </main>
-
-        {% include sidebar.html %}
+        <section class="site-content">
+            <main class="site-main">
+                {% if page.title %}
+                    <h1>{{page.title}}</h1>
+                {% endif %}
+    
+                {{content}}
+            </main>
+    
+            {% include sidebar.html %}
+        </section>
 
         <footer class="site-footer">
             <p>All rights reserved &copy; {{ site.title }}</p>
