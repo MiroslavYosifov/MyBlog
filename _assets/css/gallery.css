@@ -1,4 +1,4 @@
-.gallery {
+/* .gallery {
     padding: 0;
     margin: 0;
     display: flex;
@@ -46,7 +46,7 @@
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    box-shadow: 0 0 1.5em 0.5em rgba(0,0,0,1);
+    box-shadow: 0 0 1.5em 0.5em rgba(0,0,0,2);
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
@@ -94,4 +94,4 @@
     display: block;
     width: 100%;
     height: auto;
-}
+} */

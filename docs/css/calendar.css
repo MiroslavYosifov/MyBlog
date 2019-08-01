@@ -1,0 +1,54 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    padding: 1em 2em 2em 2em;
+    background: rgb(245, 244, 240);
+}
+
+.calender-month {
+    margin-bottom: 0.5em;
+}
+
+.calender-month h1 {
+    padding-left: 0.5em;
+}
+
+.calendar-week,
+.calendar-dates {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.3em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.calendar-week {
+    margin-bottom: 0.5em;
+}
+
+.calendar-week-day {
+    border-radius: 0.4em;
+    padding: 0.5em 0;
+    color: #fff;
+    background:grey;
+}
+
+.calendar-dates .date {
+    border-radius: 0.4em;
+    padding: 1em 0;
+    background: rgb(226, 226, 226);
+}
+
+.calendar-dates .date:hover {
+    color: #fff;
+    background: rgb(75, 207, 207);
+}
+
+.calendar-dates .date:nth-child(1) {
+    visibility: hidden;
+}
+.calendar-dates .date:nth-child(2) {
+    visibility: hidden;
+}

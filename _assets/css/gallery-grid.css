@@ -1,12 +1,12 @@
-.page-gallery {
+/* .page-gallery {
     background: url('../images/body_bgrd.jpg');
-}
+} */
 
 .gallery {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 2fr);
     grid-gap: 1em;
     grid-auto-flow: dense;
 }
@@ -52,6 +52,7 @@
 }
 
 .gallery li.portrait:before {
+    background: red;
     padding-top: 200%;
 }
 

@@ -1,4 +1,4 @@
-.gallery {
+/* .gallery {
     padding: 0;
     margin: 0;
     display: flex;
@@ -14,10 +14,8 @@
     display: flex;
     position: relative;
     box-shadow: 0 0 1.5em 0.2em rgba(0,0,0,1);
-    -webkit-animation: slideIn 0.3s ease-in;
-            animation: slideIn 0.3s ease-in;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
+    animation: slideIn 0.3s ease-in;
+    animation-fill-mode: both;
 }
 
 @media (min-width: 600px) {
@@ -35,20 +33,20 @@
 }
 
 
-.gallery li:nth-child(2) { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }
-.gallery li:nth-child(3) { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }
-.gallery li:nth-child(4) { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }
-.gallery li:nth-child(5) { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
-.gallery li:nth-child(6) { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }
-.gallery li:nth-child(7) { -webkit-animation-delay: 0.7s; animation-delay: 0.7s; }
-.gallery li:nth-child(8) { -webkit-animation-delay: 0.8s; animation-delay: 0.8s; }
+.gallery li:nth-child(2) { animation-delay: 0.2s; }
+.gallery li:nth-child(3) { animation-delay: 0.3s; }
+.gallery li:nth-child(4) { animation-delay: 0.4s; }
+.gallery li:nth-child(5) { animation-delay: 0.5s; }
+.gallery li:nth-child(6) { animation-delay: 0.6s; }
+.gallery li:nth-child(7) { animation-delay: 0.7s; }
+.gallery li:nth-child(8) { animation-delay: 0.8s; }
 
 .gallery li:before {
     display: block;
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    box-shadow: 0 0 1.5em 0.5em rgba(0,0,0,1);
+    box-shadow: 0 0 1.5em 0.5em rgba(0,0,0,2);
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
@@ -96,4 +94,4 @@
     display: block;
     width: 100%;
     height: auto;
-}
+} */
