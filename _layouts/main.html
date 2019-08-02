@@ -15,17 +15,18 @@
     {% if page.home %}home{% endif %}
 ">
     <div class="site">
-
         <header class="site-header">
             <h1 class="site-title">
                 <a href="{{ site.baseurl }}/">{{site.title}}</a>
             </h1>
 
             {% include navigation.html location="header" %}
-
         </header>
 
         <section class="site-content">
+            <section class="site-main-media">
+                <h1>Tittle<h1>
+            </section>
             <main class="site-main">
                 {% if page.title != "Sign in" %}
                     <h1>{{page.title}}</h1>

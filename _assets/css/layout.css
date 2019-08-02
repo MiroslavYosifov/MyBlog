@@ -1,12 +1,26 @@
 .site {
     max-width: var(--layout-main-width);
     margin: 0 auto;
-    padding: 2em;
 }
 
 .site-content {
-    margin-top: 5em;
+
 }
+
+.site-main {
+    
+}
+.site-main-media {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)),  url(../../images/spacex-VBNb52J8Trk-unsplash.jpg);
+    background-size: cover;
+    padding: 100vh 0 0 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 100; left: 0; right: 0; bottom: 0;
+}
+
+
 /* 
 .site-main {
     width: 100%;
