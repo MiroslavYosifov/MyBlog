@@ -1,0 +1,149 @@
+.form-signin-content {
+    display: flex;
+    max-width: 40em;
+    border: 1px solid var(--color-border-default);
+    border-radius: 0.3em;
+    margin: 5em auto;
+    overflow: hidden;
+}
+
+.form-signin-content:focus,
+.form-signin-content:hover{
+  border: 1px solid var(--color-body-text);
+  box-shadow: 0em 0em 0.7em 0.1em rgb(116, 119, 104);
+}
+
+.form-media{
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+}
+
+.form-media img {
+  width: 120%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-content {
+  width: 50%;
+}
+
+form fieldset{
+  display: block;
+  padding: 2em;
+  border: none;
+}
+
+form fieldset p{
+  display: flex;
+  padding-bottom: 1.5em;
+  align-items: center;
+}
+    
+form fieldset h3 {
+    padding-bottom: 0.8em;
+}
+
+form legend{
+  display: inline-block;
+  padding: 0 0.5em;
+  margin-left: 2em;
+}
+form label {
+  min-width: 10em;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+form input {
+  display: block;
+  width: 100%;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  padding: 0.5em 1em;
+  border: 2px solid var(--color-buttons);
+  border-radius: 0.3em;
+  outline: none;
+}
+
+form input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+  border: 2px solid var(--color-body-text);
+}
+
+form input[type="checkbox"]{
+  margin: 0
+}
+
+form input[type="submit"] {
+  padding: 0.5em 1em;
+  background: var(--color-buttons);
+  color: var(--color-body-text);
+  border-radius: 0.3em;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+form input[type="submit"]:focus, 
+form input[type="submit"]:hover {
+  background: var(--color-body-text);
+  color: var(--color-link-default);
+}
+
+form .field-icon {
+  display: flex;
+  align-items: stretch;
+}
+
+form .field-icon label {order: 1;}
+form .field-icon input {order: 2;}
+
+form .field-icon label {
+  min-width: auto;
+  background: var(--color-buttons);
+  color: var(--color-body-text);
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+}
+
+form .field-icon label span { display: none;}
+
+form .field-icon label:before {
+  display: block;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 400; 
+  content: "\f007";
+}
+
+/* f023 */
+/* form .field-icon:nth-child(2)> label:before {
+  display: block;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 400; 
+  content: "\f007";
+} */
+
+form .field-icon input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+form .field-icon input:hover + label,
+form .field-icon input:focus + label {
+  background: var(--color-body-text);
+  color: var(--color-link-default);
+}
+  

@@ -17,16 +17,9 @@
     <div class="site">
 
         <header class="site-header">
-
-            {% if page.home == true %}
             <h1 class="site-title">
                 <a href="{{ site.baseurl }}/">{{site.title}}</a>
             </h1>
-            {% else %}
-            <p class="site-title">
-                <a href="{{ site.baseurl }}/">{{site.title}}</a>
-            </p>
-            {% endif %}
 
             {% include navigation.html location="header" %}
 
@@ -34,20 +27,20 @@
 
         <section class="site-content">
             <main class="site-main">
-                {% if page.title %}
+                {% if page.title != "Sign in" %}
                     <h1>{{page.title}}</h1>
                 {% endif %}
     
                 {{content}}
             </main>
     
-            {% include sidebar.html %}
+            <!-- {% include sidebar.html %} -->
         </section>
 
         <footer class="site-footer">
             <p>All rights reserved &copy; {{ site.title }}</p>
 
-            {% include navigation.html location="footer" %}
+            <!-- {% include navigation.html location="footer" %} -->
 
         </footer>
     </div>

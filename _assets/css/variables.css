@@ -8,9 +8,11 @@
 
     --color-body-text: #C8D1A5;
     --color-body-bgrd: #191816;
-    --color-link-default: #578E86;
+    --color-link-default: rgb(58, 97, 91);
 
-    --color-border-default: #999;
+    --color-buttons: #1B2625;
+
+    --color-border-default: #1B2625;
 
     --spacing-layout-elements: 2em;
 }

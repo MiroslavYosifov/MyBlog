@@ -1,10 +1,11 @@
 .calendar-button {
+    display: none;
     position: fixed;
     width: 2em;
     height: 2em;
     background: grey;
     top: 0; left: 0;
-    border-bottom-right-radius: 0.4em;
+    z-index: 5;
 }
 
 .calendar-button i {

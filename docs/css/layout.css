@@ -5,17 +5,17 @@
 }
 
 .site-content {
-    display: flex;
+    margin-top: 5em;
 }
-
+/* 
 .site-main {
-    width: 80%;
+    width: 100%;
 }
 
 .site-sidebar {
     width: 20%;
     margin-left: auto;
-}
+} */
 
 
 

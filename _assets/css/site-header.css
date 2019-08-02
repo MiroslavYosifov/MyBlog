@@ -1,11 +1,17 @@
 .site-header {
+    position: fixed;
     border-bottom: 1px solid var(--color-border-default);
-    margin-bottom: var(--spacing-layout-elements);
-    padding-bottom: calc( var(--spacing-layout-elements) / 2 );
+    width: 100%;
+    top: 0; left: 0;
+    z-index: 4;
+    background: var(--color-body-bgrd);
+    padding: 0 6em 0 6em;
+    opacity: 0.9;
 }
 
 .site-title {
     margin: 0;
+    margin-right: 0.5em;
     padding: 0;
     font-size: 2em;
 }
@@ -13,4 +19,5 @@
 .site-title a {
     display: block;
     padding: 0.5em 0;
+    font-size: 0.9em;
 }
