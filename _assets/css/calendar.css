@@ -1,17 +1,18 @@
 .calendar-button {
     position: fixed;
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     background: grey;
     top: 0; left: 0;
+    border-bottom-right-radius: 0.4em;
 }
 
 .calendar-button i {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 1.4em;
+    color: var(--color-body-bgrd);
+    font-size: 1.1em;
 }
 .calendar{
     display: none;
@@ -28,6 +29,7 @@
     padding: 1em 2em 2em 2em;
     opacity: 0.95;
     background: rgb(245, 244, 240);
+    border-radius: 0.4em;
 }
 
 .calender-month {
@@ -35,7 +37,9 @@
 }
 
 .calender-month h1 {
+    font-size: 2em;
     padding-left: 0.5em;
+    color: grey;
 }
 
 .calendar-week,
@@ -54,20 +58,21 @@
 
 .calendar-week-day {
     border-radius: 0.4em;
-    padding: 0.5em 0;
+    padding: 0.4em 0;
     color: #fff;
     background:grey;
 }
 
 .calendar-dates .date {
     border-radius: 0.4em;
-    padding: 1em 0;
+    padding: 0.5em 0;
     background: rgb(226, 226, 226);
+    color: grey;
 }
 
 .calendar-dates .date:hover {
     color: #fff;
-    background: rgb(75, 207, 207);
+    background: var(--color-link-default);
 }
 
 .calendar-dates .date:nth-child(1) {
@@ -75,4 +80,22 @@
 }
 .calendar-dates .date:nth-child(2) {
     visibility: hidden;
+}
+
+@media ( max-width: 600px ) {
+    .calendar-button:hover > .calendar {
+        width: 25em;
+    }
+}
+
+@media ( min-width: 600px ) {
+    .calendar-button:hover > .calendar {
+        width: 30em;
+    }
+}
+
+@media ( min-width: 1024px ) {
+    .calendar-button:hover > .calendar {
+        width: 35em;
+    }
 }

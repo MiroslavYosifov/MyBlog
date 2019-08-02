@@ -21,22 +21,23 @@
     display: block;
     padding: 0.5em 1em;
     border-radius: 0.3em;
-    background: #EEE;
+    background: var(--color-link-default);
+    color: var(--color-body-text);
 }
 
 .site-nav li.selected > a,
 .site-nav a:hover {
-    background: var(--color-link-default);
-    color: var(--color-body-bgrd);
+    background: var(--color-body-text);
+    color: var(--color-link-default);
 }
 
 .site-nav a i.fas:before {
-    color: #000;
+    color: var(--color-body-text);
     margin-right: 0.5em;
 }
 .site-nav li.selected > a i.fas:before,
 .site-nav a:hover i.fas:before {
-    color: #FFF;
+    color: var(--color-link-default);
 }
 
 .site-nav > ul > li {
@@ -71,6 +72,7 @@
 
 .site-nav li:hover > a,
 .site-nav ul li a:hover {
-    background: darkcyan;
+    background: var(--color-body-text);
+    color: var(--color-link-default);
 }
 
