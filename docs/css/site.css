@@ -6,11 +6,14 @@
 
 @import url('site-header.css');
 @import url('site-footer.css');
+@import url('site-main-background.css');
 
 @import url('navigation.css');
 
 @import url('calendar.css');
 @import url('form.css');
+
+@import url('about-page.css');
 
 /* @import url('transtions.css'); */
 @import url('animations.css');
