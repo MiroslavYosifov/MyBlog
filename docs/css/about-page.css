@@ -3,17 +3,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    padding: 1em 3em;
     background: var(--color-body-bgrd);
 }
 
 .card-media {
     position: relative;
-    width: 31%;
+    width: 33.3%;
     border: 1px solid var(--color-border-default);
-    border-radius: 0.4em;
     overflow: hidden;
-    margin: 1em 0;
 }
 
 .card-media:before,
@@ -73,3 +70,23 @@
 .card-content p {
     font-size: 1em;
 }
+
+.joinus-button a{
+    display: block;
+    width: 6em;
+    border-radius: 0.2em;
+    border: 1px solid var(--color-body-text);
+    background: var(--color-buttons);
+    color: var(--color-body-text);
+    margin: 2em 2em 0 auto;
+    padding: 0.2em 0em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.joinus-button a:hover{
+    border: 1px solid var(--color-border-default);
+    background: var(--color-body-text);
+    color: var(--color-link-default);
+}
+

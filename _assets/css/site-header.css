@@ -5,7 +5,7 @@
     top: 0; left: 0;
     z-index: 4;
     background: var(--color-body-bgrd);
-    padding: 0 6em 0 6em;
+    padding: 0 4em 0 4em;
     opacity: 0.9;
 }
 

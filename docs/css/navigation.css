@@ -25,6 +25,10 @@
     color: var(--color-body-text);
 }
 
+body > div.site > header > nav > a {
+    display: none;
+}
+
 .site-nav li.selected > a,
 .site-nav a:hover {
     background: var(--color-body-text);
@@ -48,9 +52,7 @@
     display: none;
 }
 
-
 .site-nav > ul > li:hover > ul {
-    display: block;
     margin: 0;
     padding: 0;
     display: block;
@@ -67,12 +69,12 @@
 }
 
 .site-nav > ul > li ul li:first-child {
-   display: none;
+    margin-top: 0.2em;
 }
 
-.site-nav > ul > li ul li:nth-child(2) {
+/* .site-nav > ul > li ul li:nth-child(2) {
     margin-top: 0.2em;
- }
+ } */
 
 .site-nav li:hover > a,
 .site-nav ul li a:hover {

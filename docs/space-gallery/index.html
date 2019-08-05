@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SPACE BLOG</title>
-    <link rel="stylesheet" href="/MyBlog/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="/MyBlog/css/site.css">
-    <script src="/MyBlog/scripts/site.js"></script>
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <script src="/scripts/site.js"></script>
 </head>
 <body class="
     page page-space-gallery
@@ -17,11 +17,16 @@
     <div class="site">
         <header class="site-header">
             <h1 class="site-title">
-                <a href="/MyBlog/">SPACE BLOG</a>
+                <a href="/">SPACE BLOG</a>
             </h1>
-            <nav class="site-nav location-header">
-    <ul>
+            <nav class="site-nav location-header" onclick="showNav()">
+    <a class="nav-button">
+        <i class="fas fa-bars"></i>
+    </a>
+    <ul id="navbar">
         
+        
+            
         
             
         
@@ -33,23 +38,26 @@
         
                 
             <li >
-                <a href="/MyBlog/about/">
-                    <i class="fas fa-id-card-alt"></i>
-                    About
-                </a>
+                 
+                    <a href="/about/">
+                        <i class="fas fa-id-card-alt"></i>
+                        About
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/space/">
-                    <i class="fas fas fa-rocket"></i>
-                    Space
-                </a>
                 
-                <ul>
-                    <li><a href="#">Empty</a></li>
+                    <a href="javascript:void(0);">
+                        <i class="fas fas fa-rocket"></i>
+                        Space
+                    </a>
+                
+                
+                <ul id="space-info">
                     <li><a href="#">Moon</a></li>
                     <li><a href="#">Planet</a></li>
                     <li><a href="#">Solar System</a></li>
@@ -62,30 +70,36 @@
         
                 
             <li  class="selected">
-                <a href="/MyBlog/space-gallery/">
-                    <i class="fas fa-grip-horizontal"></i>
-                    Space Gallery
-                </a>
+                 
+                    <a href="/space-gallery/">
+                        <i class="fas fa-grip-horizontal"></i>
+                        Space Gallery
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/contacts/">
-                    <i class="fas fa-address-card"></i>
-                    Contacts
-                </a>
+                 
+                    <a href="/contacts/">
+                        <i class="fas fa-address-card"></i>
+                        Contacts
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/signin/">
-                    <i class="fas fas fa-sign-in-alt"></i>
-                    Sign in
-                </a>
+                 
+                    <a href="/signin/">
+                        <i class="fas fas fa-sign-in-alt"></i>
+                        Sign in
+                    </a>
+                
                 
             </li>
             
@@ -200,16 +214,24 @@
     
         
     
+        
+    
 </aside>
  -->
         </section>
 
+        
         <footer class="site-footer">
             <p>All rights reserved &copy; SPACE BLOG</p>
 
-            <!-- <nav class="site-nav location-footer">
-    <ul>
+            <!-- <nav class="site-nav location-footer" onclick="showNav()">
+    <a class="nav-button">
+        <i class="fas fa-bars"></i>
+    </a>
+    <ul id="navbar">
         
+        
+            
         
             
         
@@ -221,23 +243,26 @@
         
                 
             <li >
-                <a href="/MyBlog/about/">
-                    <i class="fas fa-id-card-alt"></i>
-                    About
-                </a>
+                 
+                    <a href="/about/">
+                        <i class="fas fa-id-card-alt"></i>
+                        About
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/space/">
-                    <i class="fas fas fa-rocket"></i>
-                    Space
-                </a>
                 
-                <ul>
-                    <li><a href="#">Empty</a></li>
+                    <a href="javascript:void(0);">
+                        <i class="fas fas fa-rocket"></i>
+                        Space
+                    </a>
+                
+                
+                <ul id="space-info">
                     <li><a href="#">Moon</a></li>
                     <li><a href="#">Planet</a></li>
                     <li><a href="#">Solar System</a></li>
@@ -250,38 +275,44 @@
         
                 
             <li  class="selected">
-                <a href="/MyBlog/space-gallery/">
-                    <i class="fas fa-grip-horizontal"></i>
-                    Space Gallery
-                </a>
+                 
+                    <a href="/space-gallery/">
+                        <i class="fas fa-grip-horizontal"></i>
+                        Space Gallery
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/contacts/">
-                    <i class="fas fa-address-card"></i>
-                    Contacts
-                </a>
+                 
+                    <a href="/contacts/">
+                        <i class="fas fa-address-card"></i>
+                        Contacts
+                    </a>
+                
                 
             </li>
             
         
                 
             <li >
-                <a href="/MyBlog/signin/">
-                    <i class="fas fas fa-sign-in-alt"></i>
-                    Sign in
-                </a>
+                 
+                    <a href="/signin/">
+                        <i class="fas fas fa-sign-in-alt"></i>
+                        Sign in
+                    </a>
+                
                 
             </li>
             
         
     </ul>
 </nav> -->
-
         </footer>
+        
     </div>
     <div class="calendar-button">
     <i class="far fa-calendar-alt"></i>

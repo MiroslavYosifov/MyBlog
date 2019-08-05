@@ -4,7 +4,7 @@
 }
 
 .site-content {
-
+    
 }
 
 .site-main {
@@ -31,8 +31,74 @@
 } */
 
 
+/* Tablets and Smartphones */
 
-@media ( min-width: 1024px ) {
+@media ( max-width: 480px ) {  
+
+    /* nav-bar */
+
+    .site .site-header {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-header .site-title {
+        margin: 0;
+        padding: 0 2em;
+    }
+
+    .site-header .site-nav {
+        position: relative;
+        margin: 1em 1em 1em auto;
+    }
+
+    .site-header .site-nav .nav-button {
+        display: block;
+    }
+
+    .site-header .site-nav i{
+        display: block;
+        font-size: 2.4em;
+    }
+
+    .site-header .site-nav > ul {
+        display: none;
+        position: absolute;
+        top: 100%; right: 0; bottom: 0; left: 0;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0 0 0 0;
+    }
+
+    .site-header .site-nav li {
+        display: block;
+        list-style: none outside;
+        padding: 0 0.1em;
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    /* about-page */
+    .site-main .list-card {
+        margin: 0;
+        padding: 0;
+    }
+    .list-card .card-media {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* form */
+
+    .site-main .form-signin-content {
+        width: 30em;
+    }
+}
+
+@media ( min-width: 480px ) {
     .site-header {
         display: flex;
         align-items: center;
@@ -41,5 +107,4 @@
     .site-header nav {
         margin-left: auto;
     }
-    
 }

@@ -1,8 +1,11 @@
 :root {
-    --font-size-body: 14px; 
-    --font-size-body-larger: 16px;
-    --font-size-body-big: 18px;
-    --font-size-body-huge: 20px;
+    --font-size-body: 8px;
+    --font-size-body-smaller: 10px;
+    --font-size-body-small: 10px;
+    --font-size-body-mid: 12px;
+    --font-size-body-larger: 14px;
+    --font-size-body-big: 16px;
+    --font-size-body-huge: 24px;
 
     --layout-main-width: 100vw;
 
