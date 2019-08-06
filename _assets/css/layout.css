@@ -45,7 +45,7 @@
     }
 
     .site-header .site-title {
-        margin: 0;
+        margin-top: 0.2em;
         padding: 0 2em;
     }
 
@@ -55,6 +55,7 @@
     }
 
     .site-header .site-nav .nav-button {
+        padding: 0.5em 2em;
         display: block;
     }
 
@@ -75,9 +76,13 @@
     .site-header .site-nav li {
         display: block;
         list-style: none outside;
-        padding: 0 0.1em;
         margin-top: 0.5em;
         width: 100%;
+    }
+
+    .site-header .site-nav li a {
+        display: block;
+        padding: 0.5em 0.5em 0.5em 1.5em;
     }
 
     /* about-page */
