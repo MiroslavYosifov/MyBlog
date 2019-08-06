@@ -6,28 +6,21 @@
         {% assign nav = site.pages | sort:"order" %}
         {% for item in nav %}
             {% if item.title and item.nomainnav != 1 %}    
-            <li {% if item.url == page.url %} class="selected"{% endif %}>
-                {% if item.title == "Space" %}
-                    <a href="javascript:void(0);">
-                        {% if item.icon %}<i class="fas {{ item.icon }}"></i>{% endif %}
-                        {{ item.title }}
-                    </a>
-                {% elsif item.title != "Space" %} 
+                <li {% if item.url == page.url %} class="selected"{% endif %}>
                     <a href="{{ site.baseurl }}{{ item.url }}">
                         {% if item.icon %}<i class="fas {{ item.icon }}"></i>{% endif %}
                         {{ item.title }}
                     </a>
+                    {% if item.title == "Space" %}
+                    <ul id="space-info">
+                        <li><a href="#">Moons</a></li>
+                        <li><a href="{{ site.baseurl }}/planets/">Planets</a></li>
+                        <li><a href="#">Solar System</a></li>
+                        <li><a href="#">Galaxies</a></li>
+                        <li><a href="#">Univers</a></li>
+                    </ul>
                 {% endif %}
-                {% if item.title == "Space" %}
-                <ul id="space-info">
-                    <li><a href="#">Moons</a></li>
-                    <li><a href="{{ site.baseurl }}/planets/">Planets</a></li>
-                    <li><a href="#">Solar System</a></li>
-                    <li><a href="#">Galaxies</a></li>
-                    <li><a href="#">Univers</a></li>
-                </ul>
-                {% endif %}
-            </li>
+                </li>
             {% endif %}
         {% endfor %}
     </ul>

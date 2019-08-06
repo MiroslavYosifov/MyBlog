@@ -70,15 +70,11 @@ body > div.site > header > nav > a {
 
 .site-nav > ul > li ul li:first-child {
     margin-top: 0.2em;
+    margin-left: 0;
 }
 
 /* .site-nav > ul > li ul li:nth-child(2) {
     margin-top: 0.2em;
  } */
 
-.site-nav li:hover > a,
-.site-nav ul li a:hover {
-    background: var(--color-body-text);
-    color: var(--color-link-default);
-}
 
