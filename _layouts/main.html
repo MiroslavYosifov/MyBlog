@@ -29,8 +29,9 @@
                 {% endif %}
                 {{content}}
             </main>
-    
-            <!-- {% include sidebar.html %} -->
+            {% if page.header == 1 %}
+                {% include sidebar-categories.html %}
+            {% endif %}
         </section>
 
         {% if page.title != "Sign in" and page.title != "Sign up" %}
@@ -41,6 +42,5 @@
         </footer>
         {% endif %}
     </div>
-    {% include calendar.html %}
 </body>
 </html>

@@ -1,0 +1,31 @@
+.site-sidebar-categories {
+    display: block;
+    position: fixed;
+    top: 35%; left: 0;
+}
+
+.site-sidebar-categories ul {
+    border-left: 2px solid gray;
+    padding: 0;
+    padding-left: 0.2em;
+}
+
+.site-sidebar-categories li {
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin: 0.1em;
+    padding: 1em 0.9em;
+    background: grey;
+    height: 3em;
+}
+
+.site-sidebar-categories a {
+    display: block;
+}
+
+.site-sidebar-categories i {
+    display: block;
+    font-size: 1.5em;
+    color: var(--color-link-default);
+}

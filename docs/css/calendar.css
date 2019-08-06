@@ -1,19 +1,14 @@
 .calendar-button {
     /* display: none; */
-    position: fixed;
-    width: 2em;
-    height: 2em;
     background: grey;
-    top: 0; left: 0;
     z-index: 5;
 }
 
 .calendar-button i {
+    display: block;
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--color-body-bgrd);
-    font-size: 1.1em;
+    color: var(--color-link-default);
+    font-size: 1.6em;
 }
 .calendar{
     display: none;
@@ -24,13 +19,14 @@
     grid-template-columns: repeat(1, 1fr);
     width: 40em;
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-1%, -1%);
+    top: 0%; left: 80%;
+    transform: translate(0%, -25%);
     margin: 0 auto;
     padding: 1em 2em 2em 2em;
     opacity: 0.95;
     background: rgb(245, 244, 240);
     border-radius: 0.4em;
+    z-index: 6;
 }
 
 .calender-month {
