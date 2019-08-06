@@ -27,9 +27,15 @@
                 {% if page.header == 1 %}
                     {% include header-pages.html %}
                 {% endif %}
-                {{content}}
+                {% if page.wrapper == 1 %}
+                <div class="site-wrapper">
+                    {{content}}
+                </div>
+                {% elsif page.wrapper != 1 %}
+                    {{content}}
+                {% endif %}
             </main>
-            {% if page.header == 1 %}
+            {% if page.sidebarcategories == 1 %}
                 {% include sidebar-categories.html %}
             {% endif %}
         </section>
@@ -37,7 +43,12 @@
         {% if page.title != "Sign in" and page.title != "Sign up" %}
         <footer class="site-footer">
             <p>All rights reserved &copy; {{ site.title }}</p>
-
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></i></a></li>
+                <li><a href="{{ site.baseurl }}/contacts/"><i class="fas fa-address-card"></i></a></li>
+            </ul>
             <!-- {% include navigation.html location="footer" %} -->
         </footer>
         {% endif %}

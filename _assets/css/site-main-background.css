@@ -3,6 +3,15 @@
     width: 100%;
 }
 
+.site-main-background:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top:0; left:0; bottom: 0; right: 0;
+    background: linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6));
+    transition: opacity 0.3s ease-in;
+}
+
 .site-main-background img {
     display: block;
     width: 100%;
@@ -13,6 +22,7 @@
     position: absolute;
     top: 0; left: 0%; bottom: 0; right: 0;
     padding: 8em 4em 8em 4em;
+    z-index: 1;
 }
 
 .site-main-background-text p{

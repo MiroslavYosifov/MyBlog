@@ -1,6 +1,30 @@
 .site-footer {
+    display: flex;
     border-top: 1px solid var(--color-border-default);
     /* margin-top: var(--spacing-layout-elements); */
-    padding-top: calc( var(--spacing-layout-elements));
-    padding-left: 6em;
+    padding: 1em 6em;
+}
+
+.site-footer p {
+    margin: 0;
+    padding: 0.4em 0 0 0;
+    text-align: center;
+}
+
+.site-footer ul {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+
+.site-footer li {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin-left: 1em;
+}
+
+.site-footer a {
+    display: block;
+    font-size: 1.8em;
 }

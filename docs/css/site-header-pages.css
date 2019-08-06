@@ -1,8 +1,8 @@
 .site-main header {
-    margin: 6em 4em 2em 4em;
+    margin: 5em 4em 0 4em;
 }
 
 .site-main header h1 {
-    padding-bottom: 0.2em;
+    padding-bottom: 0.4em;
     border-bottom: 2px solid var(--color-border-default);
 }
