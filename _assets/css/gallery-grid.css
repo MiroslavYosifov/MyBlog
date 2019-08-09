@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-columns: repeat(4, 2fr);
     grid-gap: 1em;
     grid-auto-flow: dense;
 }
@@ -45,15 +45,15 @@
     display: flex;
 }
 
+.gallery li.portrait:before {
+    background: red;
+    padding-top: 200%;
+}
+
 .gallery li.small img,
 .gallery li.portrait img {
     width: auto;
     height: 100%;
-}
-
-.gallery li.portrait:before {
-    background: red;
-    padding-top: 200%;
 }
 
 .gallery li.small {

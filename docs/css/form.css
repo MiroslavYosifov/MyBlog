@@ -64,13 +64,14 @@
 }
 
 .form-content form fieldset header h4{
-  color: var(--color-body-text);
+  color: var(--color-link-default);
 }
 
 
 .form-content form p{
   display: flex;
   align-items: baseline;
+  color: var(--color-link-default);
 }
 
 .form-content form label {
@@ -104,6 +105,7 @@
   margin: 0 1em 0 auto;
   border: none;
   cursor: pointer;
+  color: var(--color-link-default);
   background: var(--color-buttons);
 }
 

@@ -11,17 +11,18 @@
 
     --color-body-bgrd: #50504b;
     --color-pages-main-bgrd: #111111;
-    --color-body-text: rgb(181, 187, 160);
-    --color-h-tags: #50504b;
+    --color-body-text: rgb(112, 112, 112);
+    --color-h-tags: rgb(159, 163, 144);
     --color-link-default: rgb(181, 187, 160);
-
+    
     --color-card-bgrd: rgb(0, 0, 0);
-    --color-card-text: #50504b;
+    --color-card-text: #6d6d69;
+    --color-card-border: rgb(37, 60, 110);
 
-    --color-buttons: rgb(25, 41, 38);
+    --color-buttons: rgb(25, 32, 41);
 
     --color-on-hover: #2D4B8B;
-    --color-on--double-hover: rgb(25, 47, 94);
+    --color-on--double-hover: rgb(16, 34, 73);
 
     /* --color-border-default: rgb(26, 46, 44); */
     --color-border-default: rgb(107, 107, 107);

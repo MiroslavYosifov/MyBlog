@@ -23,7 +23,7 @@
     padding: 0.5em 1em;
     border-radius: 0.1em;
     background: var(--color-buttons);
-    color: var(--color-body-text);
+    color: var(--color-link-default);
 }
 
 body > div.site > header > nav > a {
@@ -37,7 +37,7 @@ body > div.site > header > nav > a {
 }
 
 .site-nav a i.fas:before {
-    color: var(--color-body-text);
+    color: var(--color-link-default);
     margin-right: 0.5em;
 }
 .site-nav li.selected > a i.fas:before,

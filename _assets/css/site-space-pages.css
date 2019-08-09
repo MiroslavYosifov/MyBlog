@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin-left: 1em;
     /* justify-content: space-between; */
 }
 
@@ -11,10 +12,11 @@
     flex-wrap: wrap;
     width: 23%;
     overflow: hidden;
-    border: 1px solid var(--color-border-default);
-    border-radius: 0.2em;
+    border: 1px solid var(--color-card-border);
+    border-radius: 0.6em;
     background: black;
-    margin: 0.5em 0.5em 0 0.5em;
+    margin: 1em 1em 0 1em;
+    box-shadow: 0 0 0.3em rgb(90, 90, 90), 0 0 0.3em rgb(90, 90, 90);
 }
 
 /* .space-card-container:nth-child(7){
@@ -25,7 +27,8 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    border: 1px solid var(--color-border-default);
+    border-radius: 0.6em;
+    border: 1px solid var(--color-card-border);
     margin: 1em;
     display: block;
 }
@@ -49,13 +52,14 @@
     background: var(--color-card-bgrd);
     width: 100%;
     height: 15em;
-    padding: 1em;
+    padding: 0 1.5em 1em 1.5em;
 }
 
 
 .space-card-content h1 {
     color: var(--color-card-text);
     font-size: 1.5em;
+    margin: 0;
 }
 
 .space-card-content p {
