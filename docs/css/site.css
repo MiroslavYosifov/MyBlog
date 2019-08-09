@@ -18,7 +18,7 @@
 @import url('calendar.css');
 @import url('form.css');
 
-/* @import url('transtions.css'); */
+@import url('transtions.css');
 @import url('animations.css');
 
 @import url('modal.css');

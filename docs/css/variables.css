@@ -5,23 +5,26 @@
     --font-size-body-mid: 12px;
     --font-size-body-larger: 14px;
     --font-size-body-big: 16px;
-    --font-size-body-huge: 24px;
+    --font-size-body-huge: 20px;
 
     --layout-main-width: 70em;
 
-    --color-body-bgrd: #4b4b43;
-    --color-pages-main-bgrd: #1b1b1b;
-    --color-body-text: #C8D1A5;
-    --color-link-default: rgb(58, 97, 91);
+    --color-body-bgrd: #50504b;
+    --color-pages-main-bgrd: #111111;
+    --color-body-text: rgb(181, 187, 160);
+    --color-h-tags: #50504b;
+    --color-link-default: rgb(181, 187, 160);
 
-    --color-card-bgrd: #C8D1A5;
+    --color-card-bgrd: rgb(0, 0, 0);
+    --color-card-text: #50504b;
 
-    --color-buttons: #1B2625;
+    --color-buttons: rgb(25, 41, 38);
 
     --color-on-hover: #2D4B8B;
+    --color-on--double-hover: rgb(25, 47, 94);
 
     /* --color-border-default: rgb(26, 46, 44); */
-    --color-border-default: rgb(65, 65, 65);
+    --color-border-default: rgb(107, 107, 107);
 
     --spacing-layout-elements: 2em;
 }

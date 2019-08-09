@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--color-body-text);
+    color: var(--color-h-tags);
 }
 
 h1 { font-size: 2.2em; }

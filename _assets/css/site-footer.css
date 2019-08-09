@@ -3,7 +3,7 @@
     background: var(--color-pages-main-bgrd);
     border-top: 1px solid var(--color-border-default);
     /* margin-top: var(--spacing-layout-elements); */
-    padding: 1em 6em;
+    padding: 1em 2em;
 }
 
 .site-footer p {
@@ -29,3 +29,8 @@
     display: block;
     font-size: 1.8em;
 }
+
+.site-footer a:hover {
+    color: var(--color-on-hover);
+}
+

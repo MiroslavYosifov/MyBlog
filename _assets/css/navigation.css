@@ -11,6 +11,7 @@
     display: block;
     list-style: none outside;
     padding: 0 0.1em;
+    margin: 0.2em 0.1em;
 }
 
 .site-nav li:first-child {
@@ -19,7 +20,7 @@
 
 .site-nav a {
     display: block;
-    padding: 0.3em 1em;
+    padding: 0.5em 1em;
     border-radius: 0.1em;
     background: var(--color-buttons);
     color: var(--color-body-text);
@@ -31,7 +32,7 @@ body > div.site > header > nav > a {
 
 .site-nav li.selected > a,
 .site-nav a:hover {
-    background: var(--color-body-text);
+    background: var(--color-on-hover);
     color: var(--color-link-default);
 }
 
@@ -62,20 +63,28 @@ body > div.site > header > nav > a {
     width: 100%;
 }
 
-.site-nav > ul > li ul li {
+.site-nav > ul > li ul > li {
     margin: 0;
     padding: 0 0.1em;
     margin-bottom: 0.2em;
 }
 
-.site-nav > ul > li ul li:first-child {
-    margin-top: 0.2em;
-    margin-left: 0;
+
+.site-nav > ul > li ul > li a {
+    background: var(--color-on-hover);
 }
 
-/* .site-nav > ul > li ul li:nth-child(2) {
-    margin-top: 0.2em;
- } */
+.site-nav > ul > li ul > li a:hover {
+    background: var(--color-on--double-hover);
+}
 
- /* searching form */
+
+.site-nav > ul > li ul li:first-child {
+    display: none;
+}
+
+.site-nav > ul > li ul li:nth-child(2) {
+    margin-top: 0.2em;
+    margin-left: 0;
+ }
 

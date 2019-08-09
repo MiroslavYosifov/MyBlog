@@ -1,7 +1,7 @@
 .site-sidebar-categories {
     display: block;
     position: fixed;
-    top: 35%; left: 0;
+    top: 30%; left: 0;
 }
 
 .site-sidebar-categories ul {
@@ -13,12 +13,21 @@
 .site-sidebar-categories li {
     display: block;
     list-style: none;
-    text-align: center;
-    margin: 0.2em;
-    padding: 1em 0.9em;
-    background: grey;
-    height: 3em;
     border-radius: 0.2em;
+    overflow: hidden;
+    margin: 0.2em;
+    background: var(--color-buttons);
+}
+
+.site-sidebar-categories li a{
+    display: block;
+    text-align: center;
+    padding: 0.8em;
+    height: 3em;
+}
+
+.site-sidebar-categories li:hover {
+    background: var(--color-on-hover);
 }
 
 .site-sidebar-categories a {

@@ -42,7 +42,7 @@
 /* form base css */
 
 .form-content {
-  border-right: 1px solid grey;
+  border-right: 1px solid #999;
   margin: 0.5em;
   width: 100%;
 }
@@ -64,6 +64,7 @@
 }
 
 .form-content form fieldset header h4{
+  color: var(--color-body-text);
 }
 
 
@@ -72,27 +73,42 @@
   align-items: baseline;
 }
 
+.form-content form label {
+  /* background: gray; */
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.form-content form label:hover {
+  color: var(--color-on-hover);
+}
+
 .form-content form input {
   display: block;
-  width: 60%;
+  width: 50%;
   padding: 0.4em 1em;
   margin: 0 1em 0 0.3em;
   border: 2px solid #999;
   border-radius: 0.3em;
+  background: transparent;
   outline: none;
+}
+
+.form-content form input:focus, 
+.form-content form input:hover {
+  border: 2px solid var(--color-on-hover);
 }
 
 .form-content form input[type="submit"] {
   margin: 0 1em 0 auto;
   border: none;
   cursor: pointer;
-  background: gray;
+  background: var(--color-buttons);
 }
 
-.form-content form label {
-  /* background: gray; */
-  display: block;
-  margin-left: auto;
+.form-content form input[type="submit"]:hover {
+  background: var(--color-on-hover);
 }
 
 .form-content form .input-checkbox {
@@ -100,10 +116,10 @@
 }
 
 .form-content form .input-checkbox label {
-  
 }
 
 .form-content form .input-checkbox input {
+  cursor: pointer;
   width: 1em;
 }
 
@@ -112,4 +128,8 @@
   margin: 0 1em 0 auto;
   font-size: 0.9em;
   text-decoration: none;
+}
+
+.form-content form p a:hover {
+  color: var(--color-on-hover);
 }

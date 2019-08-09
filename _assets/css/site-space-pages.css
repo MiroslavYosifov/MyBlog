@@ -13,6 +13,7 @@
     overflow: hidden;
     border: 1px solid var(--color-border-default);
     border-radius: 0.2em;
+    background: black;
     margin: 0.5em 0.5em 0 0.5em;
 }
 
@@ -24,6 +25,8 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    border: 1px solid var(--color-border-default);
+    margin: 1em;
     display: block;
 }
 
@@ -51,11 +54,11 @@
 
 
 .space-card-content h1 {
-    color: var(--color-link-default);
+    color: var(--color-card-text);
     font-size: 1.5em;
 }
 
 .space-card-content p {
-    color: var(--color-link-default);
+    color: var(--color-card-text);
     font-size: 0.9em;
 }
