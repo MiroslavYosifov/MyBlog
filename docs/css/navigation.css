@@ -20,7 +20,7 @@
 
 .site-nav a {
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.3em 1em;
     border-radius: 0.1em;
     background: var(--color-buttons);
     color: var(--color-link-default);

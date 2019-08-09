@@ -168,3 +168,70 @@
     }
 
 }
+/* header animation */
+
+.site-header:hover nav #navbar > li > a{
+    -webkit-animation: scaleNavBarButtons 0.1s ease;
+            animation: scaleNavBarButtons 0.1s ease;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;  
+    -webkit-animation-delay: 0s;  
+            animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleNavBarButtons {
+    from {padding: 0.3em 1em;}
+    to {padding: 0.5em 1em;}
+}
+
+@keyframes scaleNavBarButtons {
+    from {padding: 0.3em 1em;}
+    to {padding: 0.5em 1em;}
+}
+
+.site-header:hover {
+    -webkit-animation: scaleHeader 0.1s ease;
+            animation: scaleHeader 0.1s ease;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;  
+    -webkit-animation-delay: 0s;  
+            animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleHeader {
+    from {padding: 0 3em 0 3em; background: var( --color-link-default);}
+    to {padding: 0.2em 3em 0.2em 3em; background: rgb(203, 207, 188)}
+}
+
+@keyframes scaleHeader {
+    from {padding: 0 3em 0 3em; background: var( --color-link-default);}
+    to {padding: 0.2em 3em 0.2em 3em; background: rgb(203, 207, 188)}
+}
+
+
+/* about-page animation */
+
+.card-media:hover .card-info{
+    -webkit-animation: showCardInfo 0.3s ease-in-out;
+            animation: showCardInfo 0.3s ease-in-out;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;  
+    -webkit-animation-delay: 0.5s;  
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes showCardInfo {
+    from {right: 100%;}
+    to {right: 0;}
+}
+
+@keyframes showCardInfo {
+    from {right: 100%;}
+    to {right: 0;}
+}
