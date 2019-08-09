@@ -1,154 +1,115 @@
-.form-signin-content {
-    position: absolute;
-    display: flex;
-    width: 40em;
-    border: 1px solid var(--color-border-default);
-    border-radius: 0.3em;
-    margin: 0 auto;
-    margin-top: 2em;
-    overflow: hidden;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+.form-wrapper {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 45em;
+  margin: 1em auto 0 auto;
+  border: 1px solid wheat;
+  border-radius: 0.2em;
 }
 
-.form-signin-content:focus,
-.form-signin-content:hover{
-  box-shadow: 0em 0em 0.9em 0.4em rgb(39, 39, 39);
-}
+/* media css */
 
-.form-media{
+.form-media {
   position: relative;
+  width: 100%;
   overflow: hidden;
-  background: black;
-  width: 50%;
+  margin: 0.5em;
+  border-radius: 0.2em;
+}
+
+
+.form-media:before,
+.form-media:after {
+  display: block;
+  content: '';
+}
+
+.form-media:before {
+  padding-top: 100%;
 }
 
 .form-media img {
-  width: 120%;
-  display: block;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  display: block;
+  width: 100%;
+  top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* form base css */
+
 .form-content {
-  width: 50%;
-}
-
-form fieldset{
-  display: block;
-  padding: 2em;
-  border: none;
-}
-
-form fieldset p{
-  display: flex;
-  padding-bottom: 1.5em;
-  align-items: center;
-}
-    
-form fieldset h3 {
-    padding-bottom: 0.8em;
-}
-
-form legend{
-  display: inline-block;
-  padding: 0 0.5em;
-  margin-left: 2em;
-}
-form label {
-  min-width: 10em;
-  padding-right: 1rem;
-  text-align: right;
-}
-
-form input {
-  display: block;
+  border-right: 1px solid grey;
+  margin: 0.5em;
   width: 100%;
 }
 
-form input[type="text"],
-form input[type="password"] {
-  padding: 0.5em 1em;
-  border: 2px solid var(--color-buttons);
+.form-content form { 
+  width: 100%;
+  background: transparent;
+}
+
+.form-content form fieldset{ 
+  display: block;
+  border: none;
+}
+
+.form-content form header {
+  margin: 0 1em 0 0;
+  padding: 1em 0 1em 0;
+  text-align: right;
+}
+
+.form-content form fieldset header h4{
+}
+
+
+.form-content form p{
+  display: flex;
+  align-items: baseline;
+}
+
+.form-content form input {
+  display: block;
+  width: 60%;
+  padding: 0.4em 1em;
+  margin: 0 1em 0 0.3em;
+  border: 2px solid #999;
   border-radius: 0.3em;
   outline: none;
 }
 
-form input[type="text"]:focus,
-form input[type="text"]:hover,
-form input[type="password"]:focus,
-form input[type="password"]:hover {
-  border: 2px solid var(--color-body-text);
-}
-
-form input[type="checkbox"]{
-  margin: 0
-}
-
-form input[type="submit"] {
-  padding: 0.5em 1em;
-  background: var(--color-buttons);
-  color: var(--color-body-text);
-  border-radius: 0.3em;
+.form-content form input[type="submit"] {
+  margin: 0 1em 0 auto;
   border: none;
   cursor: pointer;
-  outline: none;
+  background: gray;
 }
 
-form input[type="submit"]:focus, 
-form input[type="submit"]:hover {
-  background: var(--color-body-text);
-  color: var(--color-link-default);
-}
-
-form .field-icon {
-  display: flex;
-  align-items: stretch;
-}
-
-form .field-icon label {order: 1;}
-form .field-icon input {order: 2;}
-
-form .field-icon label {
-  min-width: auto;
-  background: var(--color-buttons);
-  color: var(--color-body-text);
-  padding: 0 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top-left-radius: 0.3em;
-  border-bottom-left-radius: 0.3em;
-}
-
-form .field-icon label span { display: none;}
-
-form .field-icon label:before {
+.form-content form label {
+  /* background: gray; */
   display: block;
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 400; 
-  content: "\f007";
+  margin-left: auto;
 }
 
-/* f023 */
-/* form .field-icon:nth-child(2)> label:before {
-  display: block;
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 400; 
-  content: "\f007";
-} */
-
-form .field-icon input {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+.form-content form .input-checkbox {
+  font-size: 0.9em;
 }
 
-form .field-icon input:hover + label,
-form .field-icon input:focus + label {
-  background: var(--color-body-text);
-  color: var(--color-link-default);
-}
+.form-content form .input-checkbox label {
   
+}
+
+.form-content form .input-checkbox input {
+  width: 1em;
+}
+
+.form-content form p a {
+  display: block;
+  margin: 0 1em 0 auto;
+  font-size: 0.9em;
+  text-decoration: none;
+}

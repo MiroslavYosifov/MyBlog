@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4em 2em 4em;
+    padding: 0;
     /* justify-content: space-between; */
 }
 

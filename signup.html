@@ -9,26 +9,36 @@ nomainnav: 1
 <section class="site-main-background">
         <img src="../images/lubo-minar-jUiNBSfWZPw-unsplash.jpg" alt="">
 </section>
-<section class="form-signin-content">
-    <section class="form-media">
-        <img src="https://images.unsplash.com/photo-1560075160-40028bbaa0f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=514&q=80" alt="">
-    </section>
-    <section class="form-content">
-        <form action="#/contacts/new">
-          <fieldset>
-            <h3>Sign up</h3>
-            <p class="field-icon">
-              <input type="text" name="username" id="username">
-              <label for="username"><span>User Name</span></label>
-            </p>
-            <p class="field-icon">
-              <input type="password" name="password" id="password">
-              <label for="password"><span>Password</span></label>
-            </p>
-            <p>
-              <input type="submit" value="Sign in">
-            </p>
-          </fieldset>
-        </form>
-    </section>
+<section class="form-wrapper">
+  <section class="form-content">
+      <form action="#/contacts/new">
+        <fieldset>
+          <header>
+              <h4>Sign up</h4>
+          </header>
+          <p>
+            <label for="username"><span class=".icon-field">Username</span></label>
+            <input type="text" name="username" id="username">
+          </p>
+          <p>
+            <label for="email"><span class=".icon-field">E-mail</span></label>
+            <input type="email" name="email" id="email">
+          </p>
+          <p >
+            <label for="password"><span class=".icon-field">Password</span></label>
+            <input type="password" name="password" id="password">
+          </p>
+          <p >
+            <label for="confirmpassword"><span class=".icon-field">Confirm Password</span></label>
+            <input type="password" name="confirmpassword" id="confirmpassword">
+          </p>
+          <p>
+            <input type="submit" value="Sign up">
+          </p> 
+        </fieldset>
+      </form>
+  </section>
+  <section class="form-media">
+      <img src="../images/form-image/327705main_8111969_full.jpg" alt="">
+  </section>
 </section>

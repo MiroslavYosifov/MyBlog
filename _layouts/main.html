@@ -24,16 +24,7 @@
 
         <section class="site-content">
             <main class="site-main">
-                {% if page.header == 1 %}
-                    {% include header-pages.html %}
-                {% endif %}
-                {% if page.wrapper == 1 %}
-                <div class="site-wrapper">
-                    {{content}}
-                </div>
-                {% elsif page.wrapper != 1 %}
-                    {{content}}
-                {% endif %}
+                {{content}}
             </main>
             {% if page.sidebarcategories == 1 %}
                 {% include sidebar-categories.html %}

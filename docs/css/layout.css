@@ -2,16 +2,14 @@
     max-width: var(--layout-main-width);
     margin: 0 auto;
 }
+
 .site-content {
-    
+    padding: 0 1em;
+    background: var(--color-pages-main-bgrd);
 }
 
 .site-main {
-    
-}
-
-.site-wrapper {
-    padding: 0 4em;
+   
 }
 
 /* .site-main-media {

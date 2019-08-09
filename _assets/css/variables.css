@@ -7,15 +7,18 @@
     --font-size-body-big: 16px;
     --font-size-body-huge: 24px;
 
-    --layout-main-width: 100vw;
+    --layout-main-width: 70em;
 
+    --color-body-bgrd: #4b4b43;
+    --color-pages-main-bgrd: #1b1b1b;
     --color-body-text: #C8D1A5;
-    --color-body-bgrd: #191816;
     --color-link-default: rgb(58, 97, 91);
 
     --color-card-bgrd: #C8D1A5;
 
     --color-buttons: #1B2625;
+
+    --color-on-hover: #2D4B8B;
 
     /* --color-border-default: rgb(26, 46, 44); */
     --color-border-default: rgb(65, 65, 65);
