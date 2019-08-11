@@ -49,7 +49,7 @@
 .space-card-media:before{
     display: block;
     content: '';
-    padding: 50%;
+    padding: 40%;
 }
 
 .space-card-media img{

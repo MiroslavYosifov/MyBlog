@@ -2,7 +2,7 @@
     <a class="nav-button">
         <i class="fas fa-bars"></i>
     </a>
-    <ul id="navbar">
+    <ul class="navigation" id="navbar">
         {% assign nav = site.pages | sort:"order" %}
         {% for item in nav %}
             {% if item.title and item.nomainnav != 1 %}    

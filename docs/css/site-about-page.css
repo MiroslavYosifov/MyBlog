@@ -22,31 +22,12 @@
 }
 .card-media:before {
     padding-top: 100%;
-
-}
-
-.card-media:nth-child(1),
-.card-media:nth-child(2),
-.card-media:nth-child(3) {
-    width: 100%;
-    /* border: 1px solid var(--color-card-border); */
-}
-
-.card-media:nth-child(1) {
-    margin-top: 1em;
-}
-
-.card-media:nth-child(1):before,
-.card-media:nth-child(2):before,
-.card-media:nth-child(3):before {
-    padding-top: 30%;
-
 }
 
 .card-media:after {
     position: absolute;
     top:0; left:0; bottom: 0; right: 0;
-    background: linear-gradient(rgba(0,0,0, 0.8),rgba(0,0,0,0.8));
+    background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5));
 }
 .card-media:hover:after{
     opacity: 0;

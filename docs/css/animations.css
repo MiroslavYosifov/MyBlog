@@ -12,12 +12,12 @@
 }
 
 @-webkit-keyframes scaleNavBarButtons {
-    from {padding: 0.3em 1em;}
+    from {padding: 0.2em 1em;}
     to {padding: 0.5em 1em;}
 }
 
 @keyframes scaleNavBarButtons {
-    from {padding: 0.3em 1em;}
+    from {padding: 0.2em 1em;}
     to {padding: 0.5em 1em;}
 }
 
@@ -34,12 +34,12 @@
 
 @-webkit-keyframes scaleHeader {
     from {padding: 0 3em 0 3em; background: var( --color-link-default);}
-    to {padding: 0.2em 3em 0.2em 3em; background: rgb(203, 207, 188)}
+    to {padding: 0.3em 3em 0.3em 3em; background: rgb(203, 207, 188)}
 }
 
 @keyframes scaleHeader {
     from {padding: 0 3em 0 3em; background: var( --color-link-default);}
-    to {padding: 0.2em 3em 0.2em 3em; background: rgb(203, 207, 188)}
+    to {padding: 0.3em 3em 0.3em 3em; background: rgb(203, 207, 188)}
 }
 
 

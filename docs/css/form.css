@@ -5,7 +5,7 @@
   display: flex;
   /* flex-wrap: wrap; */
   width: 45em;
-  margin: 1em auto 0 auto;
+  margin: 2em auto 0 auto;
   border: 1px solid wheat;
   border-radius: 0.2em;
 }
