@@ -1,3 +1,38 @@
+/* text content css */
+
+.text-content {
+    border: 1px solid var(--color-card-border);
+    border-radius: 1em;
+    padding: 2.5em;
+    margin: 1em auto;
+}
+
+.text-background {
+    position: relative;
+    width: 100%;
+}
+
+.text-background-media {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.text-background-media:before {
+    display: block;
+    content: '';
+    padding-top: 35%;
+}
+
+.text-background img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0; right: 0;
+}
+
+/* card css */
+
 .list-space-card {
     width: 100%;
     display: flex;

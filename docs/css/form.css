@@ -8,6 +8,7 @@
   margin: 2em auto 0 auto;
   border: 1px solid wheat;
   border-radius: 0.2em;
+  z-index: 3;
 }
 
 /* media css */
@@ -20,6 +21,17 @@
   border-radius: 0.2em;
 }
 
+.form-media h3 {
+  position: absolute;
+  top:40%; left: 30%;
+  z-index: 5;
+  color: wheat;
+  opacity: 0;
+}
+
+.form-wrapper:hover .form-media h3 {
+  opacity: 1;
+}
 
 .form-media:before,
 .form-media:after {
@@ -29,6 +41,15 @@
 
 .form-media:before {
   padding-top: 100%;
+}
+
+.form-media:after {
+  position: absolute;
+  top:0; left:0; bottom: 0; right: 0;
+}
+
+.form-wrapper:hover .form-media:after {
+  background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5));
 }
 
 .form-media img {

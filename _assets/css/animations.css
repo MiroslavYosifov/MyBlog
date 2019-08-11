@@ -27,6 +27,9 @@
 
 /* about-page animation */
 
+/* about-page animation main background*/
+
+/* about-page animation main background*/
 .card-media:hover .card-info{
     animation: showCardInfo 0.3s ease-in-out;
     animation-duration: 2s;  

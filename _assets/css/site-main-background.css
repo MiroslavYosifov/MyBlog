@@ -3,28 +3,57 @@
     width: 100%;
 }
 
-.site-main-background:after {
+.site-main-background-media {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.site-main-background-media:before {
     display: block;
     content: '';
+    padding-top: 56.25%;
+}
+
+.site-main-background-media:after {
+    content: '';
+    display: block;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
     position: absolute;
-    top:0; left:0; bottom: 0; right: 0;
-    background: linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6));
-    transition: opacity 0.3s ease-in;
+    top: 0; left: 0; right: 0; bottom: 0;
 }
 
 .site-main-background img {
     display: block;
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    top: 0; right: 0;
 }
 
 .site-main-background-text{
     position: absolute;
     top: 0; left: 0%; bottom: 0; right: 0;
     padding: 8em 4em 8em 4em;
-    z-index: 1;
+    z-index: 2;
 }
 
 .site-main-background-text p{
     font-size: 0.7em;
+}
+
+.signup-button{
+    display: block;
+    width: 6em;
+    margin: 3em 2em 0 auto;
+    padding: 0.2em 0em;
+    text-align: center;
+    font-size: 0.7em;
+    border-radius: 0.2em;
+    background: var(--color-buttons);
+    color: var(--color-link-default);
+}
+
+.signup-button:hover{
+    background: var(--color-on-hover);
 }

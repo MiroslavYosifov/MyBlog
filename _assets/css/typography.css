@@ -13,12 +13,12 @@ html {
 
 
 
-@media ( min-width: 320px ) {
+@media ( min-width: 321px ) {
     html { font-size: var(--font-size-body-smaller, 10px); }
 }
 
 @media ( min-width: 480px ) {
-    html { font-size: var(--font-size-body-small, 12px); }
+    html { font-size: var(--font-size-body-small, 11px); }
 }
 
 @media ( min-width: 768px ) {

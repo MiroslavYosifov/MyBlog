@@ -86,19 +86,4 @@
     color: var(--color-link-default);
 }
 
-.signup-button{
-    display: block;
-    width: 6em;
-    margin: 4em 2em 0 auto;
-    padding: 0.2em 0em;
-    text-align: center;
-    font-size: 0.7em;
-    border-radius: 0.2em;
-    background: var(--color-buttons);
-    color: var(--color-link-default);
-}
-
-.signup-button:hover{
-    background: var(--color-on-hover);
-}
 
