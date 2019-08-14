@@ -1,8 +1,9 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementsByTagName('body')[0].classList.add('loaded');
-});
+// window.addEventListener('DOMContentLoaded', (event) => {
+//     document.getElementsByTagName('body')[0].classList.add('loaded');
+// });
 
 // scripts for navbar
+
 function showNav(){
     let navbar = document.getElementById('navbar');
     let navButton = document.getElementsByClassName('nav-button');
@@ -14,4 +15,5 @@ function showNav(){
     }
 }
 
-// script for space info
+
+

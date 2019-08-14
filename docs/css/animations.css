@@ -42,11 +42,6 @@
     to {padding: 0.3em 3em 0.3em 3em; background: rgb(203, 207, 188)}
 }
 
-
-/* about-page animation */
-
-/* about-page animation main background*/
-
 /* about-page animation main background*/
 .card-media:hover .card-info{
     -webkit-animation: showCardInfo 0.3s ease-in-out;

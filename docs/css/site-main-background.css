@@ -3,6 +3,41 @@
     width: 100%;
 }
 
+.left-slide-button,
+.right-slide-button {
+    position: absolute;
+    z-index: 3;
+    height: 3em;
+    width: 1em;
+    opacity: 0.5;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.left-slide-button:hover,
+.right-slide-button:hover {
+    background: var(--color-on-hover);
+}
+
+.left-slide-button {
+    top: 50%; left: 0;
+}
+
+.right-slide-button {
+    top: 50%; right: 0;
+}
+
+.slides {
+    display: none;
+}
+
+.slides.current {
+    display: block;
+}
+
 .site-main-background-media {
     position: relative;
     overflow: hidden;

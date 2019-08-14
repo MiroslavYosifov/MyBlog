@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/MyBlog/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/MyBlog/css/site.css">
     <script src="/MyBlog/scripts/site.js"></script>
+    <script src="/MyBlog/scripts/slides.js"></script>
 </head>
 <body class="
     page page-about
@@ -17,7 +18,7 @@
     <div class="site">
         <header class="site-header">
             <h1 class="site-title">
-                <a href="/MyBlog/">SPACE BLOG</a>
+                <a href="/MyBlog/about/">SPACE BLOG</a>
             </h1>
             <nav class="site-nav location-header" onclick="showNav()">
     <a class="nav-button">
@@ -108,7 +109,17 @@
             <main class="site-main">
                 <section class="site-main-background">
     <section class="site-main-background-media">
-        <img src="../images/nasa-rTZW4f02zY8-unsplash.jpg" alt="">
+        <section class="slides current">
+            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80" alt="">
+        </section>
+        <section class="slides">
+            <img src="https://images.unsplash.com/photo-1447433819943-74a20887a81e?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80" alt="">
+        </section>
+        <section class="slides">
+            <img src="https://images.unsplash.com/photo-1447433865958-f402f562b843?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80" alt="">
+        </section>
+        <button class="left-slide-button" onclick="previousSlide()">&#10094;</button>
+        <button class="right-slide-button" onclick="nextSlide()">&#10095;</button>
         <section class="site-main-background-text">
             <h1>About space blog<h1>
             <p>Here you can see information about the space, mission, technology and images.</p>
