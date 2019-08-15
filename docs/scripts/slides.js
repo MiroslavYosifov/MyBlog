@@ -56,6 +56,6 @@ function changeSlideAuto(){
             currentSlide.className = "slides";
         }
     
-        setTimeout(changeSlideAuto, 3000);
+        setTimeout(changeSlideAuto, 5000);
     }
 }

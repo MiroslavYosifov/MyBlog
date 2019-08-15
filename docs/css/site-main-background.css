@@ -7,9 +7,9 @@
 .right-slide-button {
     position: absolute;
     z-index: 3;
-    height: 3em;
-    width: 1em;
-    opacity: 0.5;
+    height: 100%;
+    width: 2em;
+    opacity: 0.2;
     outline: none;
     cursor: pointer;
     border: none;
@@ -23,11 +23,11 @@
 }
 
 .left-slide-button {
-    top: 50%; left: 0;
+    top: 0; left: 0;
 }
 
 .right-slide-button {
-    top: 50%; right: 0;
+    top: 0; right: 0;
 }
 
 .slides {
@@ -41,8 +41,8 @@
 .site-main-background-media {
     position: relative;
     overflow: hidden;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
     width: 100%;
 }
 

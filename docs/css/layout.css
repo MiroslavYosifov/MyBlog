@@ -98,9 +98,8 @@
 
     /* space page */
 
-    .list-space-card .space-card-container {
-        width: 85%;
-        margin: 0.5em 2em 0.5em 2em;
+    .site-main .list-space-card {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* gallery */
@@ -163,10 +162,8 @@
     }
 
     /* space page */
-    .list-space-card .space-card-container {
-        width: 46%;
-        margin-left: 0.3em;
-        padding: 0;
+    .site-main .list-space-card {
+        grid-template-columns: repeat(2, 1fr);
     }
 
      /* about-page */
@@ -212,10 +209,8 @@
     }
 
     /* space page */
-    .list-space-card .space-card-container {
-        width: 30%;
-        margin-left: 0.2em;
-        padding: 0;
+    .site-main .list-space-card {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /* about-page */
@@ -265,10 +260,8 @@
     
     /* space page */
 
-    .list-space-card .space-card-container {
-        width: 22.5%;
-        margin-left: 0.2em;
-        padding: 0;
+    .site-main .list-space-card {
+        grid-template-columns: repeat(4, 1fr);
     }
 
     /* gallery */
