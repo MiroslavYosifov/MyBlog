@@ -3,8 +3,8 @@
 .text-content {
     border: 1px solid var(--color-card-border);
     border-radius: 0.2em;
-    padding: 1.5em;
-    margin: 1em auto;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
 }
 
 .text-background {
@@ -15,7 +15,7 @@
 .text-background-media {
     position: relative;
     overflow: hidden;
-    border-radius: 1em;
+    border-radius: 0.2em;
     width: 100%;
 }
 
@@ -40,7 +40,7 @@
     grid-gap: 1em;
     grid-auto-flow: dense;
     width: 100%;
-    margin: 0 auto;
+    margin: 0.5em auto;
 }
 
 .space-card-container {

@@ -61,10 +61,11 @@
 .contact-form-content form input,
 .contact-form-content form textarea {
     width: 100%;
-    border: 2px solid gray;
+    border: 2px solid rgb(39, 39, 39);
     border-radius: 0.2em;
     padding: 0.2em;
     background: none;
+    resize: none;
 }
 
 .contact-form-content form input:hover,
