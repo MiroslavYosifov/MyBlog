@@ -68,7 +68,7 @@
 }
 
 .card-content p {
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .card-info {
@@ -84,6 +84,7 @@
 
 .card-info p {
     color: var(--color-link-default);
+    font-size: 1.2em;
 }
 
 
