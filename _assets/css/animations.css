@@ -1,7 +1,7 @@
 /* header animation */
 
-.site-header:hover nav #navbar > li > a{
-    animation: scaleNavBarButtons 0.1s ease;
+/* .site-header:hover nav #navbar > li > a{
+    animation: scaleNavBarButtons 0.1s ease-in-out;
     animation-duration: 0.3s;  
     animation-delay: 0s;
     animation-fill-mode: both;
@@ -13,7 +13,7 @@
 }
 
 .site-header:hover {
-    animation: scaleHeader 0.1s ease;
+    animation: scaleHeader 0.1s ease-in-out;
     animation-duration: 0.3s;  
     animation-delay: 0s;
     animation-fill-mode: both;
@@ -22,7 +22,7 @@
 @keyframes scaleHeader {
     from {padding: 0 3em 0 3em; background: var( --color-link-default);}
     to {padding: 0.3em 3em 0.3em 3em; background: rgb(203, 207, 188)}
-}
+} */
 
 /* about-page animation main background*/
 .card-media:hover .card-info{
