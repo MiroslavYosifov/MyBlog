@@ -10,6 +10,7 @@
     <script src="{{ site.baseurl }}/scripts/site.js"></script>
     <script src="{{ site.baseurl }}/scripts/slides.js"></script>
     <script src="{{ site.baseurl }}/scripts/space-page.js"></script>
+    <script src="{{ site.baseurl }}/scripts/modal.js"></script>
 </head>
 <body onload="changeSlideAuto()" class="
     {% if page.title %}page page-{{ page.title | slugify }}{% endif %}
@@ -26,6 +27,9 @@
 
         <section class="site-content">
             <main class="site-main">
+                {% if page.modal == 1 %}
+                    {% include modal.html %}
+                {% endif %}
                 {{content}}
             </main>
             {% if page.sidebarcategories == 1 %}
