@@ -9,7 +9,7 @@
 }
 
 .site-header:hover{
-    padding: 0.3em 3em 0.3em 3em; background: rgb(231, 235, 218);
+    padding: 0.3em 3em 0.3em 3em; background: rgb(255, 255, 255);
 }
 
 .site-header nav #navbar > li > a {

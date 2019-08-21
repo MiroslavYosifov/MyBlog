@@ -10,22 +10,22 @@
     --layout-main-width: 70em;
 
     --color-body-bgrd: #000000;
-    --color-pages-main-bgrd: #111111;
-    --color-body-text: rgb(138, 138, 138);
-    --color-h-tags: rgb(159, 163, 144);
-    --color-link-default: rgb(181, 187, 160);
+    --color-pages-main-bgrd: rgb(25, 25, 25);
+    --color-body-text: rgb(190, 186, 169);
+    --color-h-tags: rgb(230, 230, 230);
+    --color-link-default: rgb(255, 255, 255);
     
     --color-card-bgrd: rgb(0, 0, 0);
-    --color-card-text: #6d6d69;
-    --color-card-border: rgb(80, 82, 85);
+    --color-card-text: rgb(200, 200, 200);
+    --color-card-border: rgb(225, 225, 225);
 
-    --color-buttons: rgb(25, 32, 41);
+    --color-buttons: rgb(35, 35, 35);
 
-    --color-on-hover: #2D4B8B;
+    --color-on-hover: rgb(16, 44, 100);
     --color-on--double-hover: rgb(16, 34, 73);
 
     /* --color-border-default: rgb(26, 46, 44); */
-    --color-border-default: rgb(107, 107, 107);
+    --color-border-default: rgb(225, 225, 225);
 
     --spacing-layout-elements: 2em;
 }
