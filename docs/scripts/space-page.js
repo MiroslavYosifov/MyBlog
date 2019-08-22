@@ -9,11 +9,11 @@ function showCardContent (e) {
     let isHidden = currentCardContent.style.display;
     console.log(isHidden);
     
-    if(isHidden === "block" && currentCard.className.trim() === "space-card-container portrait"){
+    if(isHidden === "block" && currentCard.className.trim() === "space-card-container portrait checked"){
         currentCardContent.style.display = "none";
         currentCard.className = "space-card-container"
     }else if(currentCard.className.trim() === "space-card-container"){
         currentCardContent.style.display = "block"
-        currentCard.className = "space-card-container portrait"
+        currentCard.className = "space-card-container portrait checked"
     }
 }
