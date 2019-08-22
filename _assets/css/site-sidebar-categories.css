@@ -26,10 +26,6 @@
     height: 3em;
 }
 
-.site-sidebar-categories li:hover {
-    background: var(--color-on-hover);
-}
-
 .site-sidebar-categories a {
     display: block;
 }
