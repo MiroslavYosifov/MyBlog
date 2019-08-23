@@ -16,14 +16,26 @@
 /* space pages */
 
 
-.space-card-container.checked .space-card-content {
-    animation: showSpaceCardInfo 0.5s ease-in-out;
+.space-card-container.checked .space-card-content section{
+    animation: showSpaceCardInfo 0.3s ease-in-out;
     animation-duration: 1s;  
     animation-delay: 0;
     animation-fill-mode: both;
 }
 
 @keyframes showSpaceCardInfo {
-    from {top: 100%; }
-    to {top: 0; }
+    from {bottom: 0; }
+    to {bottom: 100%; }
 }
+
+/* .space-card-container.portrait {
+    animation: showSpaceCardInfo 0.3s ease-in-out;
+    animation-duration: 1s;  
+    animation-delay: 0;
+    animation-fill-mode: both;
+}
+
+@keyframes showSpaceCardInfo {
+    from {grid-row: span 1; }
+    to {grid-row: span 2; }
+} */
