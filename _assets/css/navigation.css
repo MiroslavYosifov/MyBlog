@@ -1,0 +1,89 @@
+.site-nav {
+
+}
+
+.site-nav > ul {
+    display: flex;
+    padding: 0;
+}
+
+.site-nav li {
+    display: block;
+    list-style: none outside;
+    padding: 0 0.1em;
+    margin: 0.2em 0.1em;
+}
+
+.site-nav li:first-child {
+    padding-left: 0;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.2em 1em;
+    border-radius: 0.1em;
+    background: var(--color-buttons);
+    color: var(--color-link-default);
+}
+
+body > div.site > header > nav > a {
+    display: none;
+}
+
+.site-nav li.selected > a,
+.site-nav a:hover {
+    background: var(--color-on-hover);
+    color: var(--color-link-default);
+}
+
+.site-nav a i.fas:before {
+    color: var(--color-link-default);
+    margin-right: 0.3em;
+}
+.site-nav li.selected > a i.fas:before,
+.site-nav a:hover i.fas:before {
+    color: var(--color-link-default);
+}
+
+.site-nav > ul > li {
+    position: relative;
+}
+
+.site-nav > ul > li ul{
+    display: none;
+}
+
+.site-nav > ul > li:hover > ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%; right: 0;
+    width: 100%;
+}
+
+.site-nav > ul > li ul > li {
+    margin: 0;
+    padding: 0 0.1em;
+    margin-bottom: 0.2em;
+}
+
+
+.site-nav > ul > li ul > li a {
+    background: var(--color-on-hover);
+}
+
+.site-nav > ul > li ul > li a:hover {
+    background: var(--color-on--double-hover);
+}
+
+
+.site-nav > ul > li ul li:first-child {
+    display: none;
+}
+
+.site-nav > ul > li ul li:nth-child(2) {
+    margin-top: 0.2em;
+    margin-left: 0;
+ }

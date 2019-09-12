@@ -1,0 +1,101 @@
+/*
+ * Transitions
+ */
+
+/* Header */
+
+.site-header {
+    transition: padding 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.site-header:hover{
+    padding: 0.3em 3em 0.3em 3em; background: rgb(255, 255, 255);
+}
+
+.site-header nav #navbar > li > a {
+    transition: font-size 0.3s ease-in-out;
+}
+
+.site-header:hover nav #navbar > li > a {
+    padding: 0.4em 1em;
+    font-size: 1.2em;
+}
+
+/* Navigation */
+.site-nav a {
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Sidebar */
+.site-sidebar-categories li {
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.site-sidebar-categories li:hover {
+    background: var(--color-on-hover);
+}
+
+.site-sidebar-categories li:nth-child(2):hover > a > i,
+.site-sidebar-categories li:nth-child(3):hover > a > i,
+.site-sidebar-categories li:nth-child(4):hover > a > i,
+.site-sidebar-categories li:nth-child(5):hover > a > i {
+    transition: color 0.3s ease-in-out;
+}
+
+.site-sidebar-categories li:nth-child(2):hover > a > i {
+    color: rgb(255, 255, 106);
+}
+
+.site-sidebar-categories li:nth-child(3):hover > a > i {
+    color: rgb(59, 194, 59);
+}
+
+.site-sidebar-categories li:nth-child(4):hover > a > i {
+    color: rgb(248, 190, 83);
+}
+
+.site-sidebar-categories li:nth-child(5):hover > a > i {
+    color: rgb(252, 100, 40);
+}
+
+/* Footer */
+.site-footer a {
+    transition: color 0.3s ease-in-out;
+}
+
+/* About-Page */
+
+.card-media:after {
+    transition: opacity 0.4s ease-in;
+}
+
+.card-content {
+    transition: opacity 0.3s ease-in;
+}
+
+.signup-button {
+    transition: background 0.3s ease-in;
+}
+
+
+/* Space-Pages */
+
+.space-card-container {
+    transition: box-shadow 0.3 ease-in-out;
+}
+
+.space-card-container:hover {
+    box-shadow: 0 0 0.4em 0.4em black;
+}
+
+section.space-card-media > header > button > i {
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+section.space-card-media > header > button:hover > i {
+    font-size: 1.7em;
+    color: rgb(255, 0, 55);
+}
+
+/* forms */
+

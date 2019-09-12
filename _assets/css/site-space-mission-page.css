@@ -1,0 +1,22 @@
+.container-timeline {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-top: 2em;
+    border-right: 6px solid black;
+}
+
+.timeline li {
+    position: relative;
+    display: block;
+    width: 30em;
+    text-align: center;
+    border: 1px solid white;
+    list-style: none;
+}
+
