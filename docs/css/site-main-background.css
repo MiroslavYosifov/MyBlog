@@ -1,0 +1,97 @@
+.site-main-background {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.left-slide-button,
+.right-slide-button {
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 2em;
+    opacity: 0.2;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.left-slide-button:hover,
+.right-slide-button:hover {
+    background: var(--color-on-hover);
+}
+
+.left-slide-button {
+    top: 0; left: 0;
+}
+
+.right-slide-button {
+    top: 0; right: 0;
+}
+
+.slides {
+    display: none;
+}
+
+.slides.current {
+    display: block;
+}
+
+.site-main-background-media {
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    width: 100%;
+}
+
+.site-main-background-media:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.site-main-background-media:after {
+    content: '';
+    display: block;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.site-main-background img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0; right: 0;
+}
+
+.site-main-background-text{
+    position: absolute;
+    top: 0; left: 0%; bottom: 0; right: 0;
+    padding: 8em 4em 8em 4em;
+    z-index: 2;
+}
+
+.site-main-background-text p{
+    font-size: 0.7em;
+}
+
+.signup-button{
+    display: block;
+    width: 6em;
+    margin: 3em 2em 0 auto;
+    padding: 0.2em 0em;
+    text-align: center;
+    font-size: 0.7em;
+    border-radius: 0.2em;
+    background: var(--color-buttons);
+    color: var(--color-link-default);
+}
+
+.signup-button:hover{
+    background: var(--color-on-hover);
+}
