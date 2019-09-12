@@ -7,48 +7,8 @@
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
-    <script src="{{ site.baseurl }}/scripts/site.js"></script>
-    <script src="{{ site.baseurl }}/scripts/slides.js"></script>
-    <script src="{{ site.baseurl }}/scripts/space-page.js"></script>
-    <script src="{{ site.baseurl }}/scripts/modal.js"></script>
 </head>
-<body onload="changeSlideAuto()" class="
-    {% if page.title %}page page-{{ page.title | slugify }}{% endif %}
-    {% if post.title %}post{% endif %}
-    {% if page.home %}home{% endif %}
-">
-    <div class="site">
-        <header class="site-header">
-            <h1 class="site-title">
-                <a href="{{ site.baseurl }}/about/">{{site.title}}</a>
-            </h1>
-            {% include navigation.html location="header" %}
-        </header>
-
-        <section class="site-content">
-            <main class="site-main">
-                {% if page.modal == 1 %}
-                    {% include modal.html %}
-                {% endif %}
-                {{content}}
-            </main>
-            {% if page.sidebarcategories == 1 %}
-                {% include sidebar-categories.html %}
-            {% endif %}
-        </section>
-
-        {% if page.title != "Sign in" and page.title != "Sign up" %}
-        <footer class="site-footer">
-            <p>All rights reserved &copy; {{ site.title }}</p>
-            <ul>
-                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin"></i></i></a></li>
-                <li><a href="{{ site.baseurl }}/contacts/"><i class="fas fa-address-card"></i></a></li>
-            </ul>
-            <!-- {% include navigation.html location="footer" %} -->
-        </footer>
-        {% endif %}
-    </div>
+<body>
+    <h1>Hello</h1>
 </body>
 </html>
