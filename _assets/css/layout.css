@@ -98,7 +98,7 @@
 
     /* space page */
 
-    .site-main .list-space-card {
+    .site .site-main .list-space-card {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -209,7 +209,7 @@
     }
 
     /* space page */
-    .site-main .list-space-card {
+    .site .site-main .list-space-card {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -259,8 +259,7 @@
     }
 
     /* space page */
-
-    .site-main .list-space-card {
+    .site .site-main .list-space-card {
         grid-template-columns: repeat(4, 1fr);
     }
 
