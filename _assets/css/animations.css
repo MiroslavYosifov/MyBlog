@@ -1,7 +1,7 @@
 /* header animation */
 
 /* about-page animation main background*/
-.card-media:hover .card-info{
+/* .card-media:hover .card-info{
     animation: showCardInfo 0.3s ease-in-out;
     animation-duration: 2s;  
     animation-delay: 0.2s;
@@ -11,12 +11,12 @@
 @keyframes showCardInfo {
     from {right: 100%;}
     to {right: 0;}
-}
+} */
 
 /* space pages */
 
 
-.space-card-container.checked .space-card-content section{
+/* .space-card-container.checked .space-card-content section {
     animation: showSpaceCardInfo 0.3s ease-in-out;
     animation-duration: 1s;  
     animation-delay: 0;
@@ -26,7 +26,7 @@
 @keyframes showSpaceCardInfo {
     from {bottom: 0; }
     to {bottom: 100%; }
-}
+} */
 
 /* .space-card-container.portrait {
     animation: showSpaceCardInfo 0.3s ease-in-out;

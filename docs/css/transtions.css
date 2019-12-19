@@ -4,27 +4,27 @@
 
 /* Header */
 
-.site-header {
+/* .site-header {
     transition: padding 0.3s ease-in-out, background 0.3s ease-in-out;
-}
+} */
 
-.site-header:hover{
+/* .site-header:hover{
     padding: 0.3em 3em 0.3em 3em; background: rgb(255, 255, 255);
-}
+} */
 
-.site-header nav #navbar > li > a {
+/* .site-header nav #navbar > li > a {
     transition: font-size 0.3s ease-in-out;
 }
 
 .site-header:hover nav #navbar > li > a {
     padding: 0.4em 1em;
     font-size: 1.2em;
-}
+} */
 
 /* Navigation */
-.site-nav a {
+/* .site-nav a {
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-}
+} */
 
 /* Sidebar */
 .site-sidebar-categories li {

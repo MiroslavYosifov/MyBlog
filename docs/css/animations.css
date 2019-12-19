@@ -1,50 +1,32 @@
 /* header animation */
 
 /* about-page animation main background*/
-.card-media:hover .card-info{
-    -webkit-animation: showCardInfo 0.3s ease-in-out;
-            animation: showCardInfo 0.3s ease-in-out;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;  
-    -webkit-animation-delay: 0.2s;  
-            animation-delay: 0.2s;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-}
-
-@-webkit-keyframes showCardInfo {
-    from {right: 100%;}
-    to {right: 0;}
+/* .card-media:hover .card-info{
+    animation: showCardInfo 0.3s ease-in-out;
+    animation-duration: 2s;  
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
 }
 
 @keyframes showCardInfo {
     from {right: 100%;}
     to {right: 0;}
-}
+} */
 
 /* space pages */
 
 
-.space-card-container.checked .space-card-content section{
-    -webkit-animation: showSpaceCardInfo 0.3s ease-in-out;
-            animation: showSpaceCardInfo 0.3s ease-in-out;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;  
-    -webkit-animation-delay: 0;  
-            animation-delay: 0;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-}
-
-@-webkit-keyframes showSpaceCardInfo {
-    from {bottom: 0; }
-    to {bottom: 100%; }
+/* .space-card-container.checked .space-card-content section {
+    animation: showSpaceCardInfo 0.3s ease-in-out;
+    animation-duration: 1s;  
+    animation-delay: 0;
+    animation-fill-mode: both;
 }
 
 @keyframes showSpaceCardInfo {
     from {bottom: 0; }
     to {bottom: 100%; }
-}
+} */
 
 /* .space-card-container.portrait {
     animation: showSpaceCardInfo 0.3s ease-in-out;

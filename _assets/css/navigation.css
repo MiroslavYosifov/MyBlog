@@ -1,5 +1,6 @@
 .site-nav {
-
+    display: block;
+    margin-left: auto;
 }
 
 .site-nav > ul {
@@ -49,7 +50,7 @@ body > div.site > header > nav > a {
     position: relative;
 }
 
-.site-nav > ul > li ul{
+.site-nav > ul > li ul {
     display: none;
 }
 
