@@ -78,11 +78,15 @@
     display: block;
     position: absolute;
     z-index: 3;
-    top: 0; right: 0;
-    height: 100%; right: 100%;
+    top: 100%; right: 0;
+    height: 100%; 
     text-align: center;
-    padding: 4em;
+    padding: 1em;
     background: var(--color-on-hover);
+}
+
+.card-media:hover .card-info {
+    top: 0;
 }
 
 .card-info p {
