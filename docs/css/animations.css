@@ -82,7 +82,7 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(50%) scale(1.01);
+        transform: translateY(50%);
     }
 }
 
@@ -92,7 +92,7 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(50%) scale(1.01);
+        transform: translateY(50%);
     }
 }
 
