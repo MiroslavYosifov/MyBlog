@@ -9,7 +9,7 @@
 
 @keyframes moveHeader {
     0% {
-        transform: translateY(50%);
+        transform: translateY(40%);
     }
     20% {
         transform: translateY(0);
@@ -47,7 +47,32 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(50%);
+        transform: translateY(40%);
+    }
+}
+
+.signup-button {
+    animation: changeColors 2s ease-in-out;
+    animation-duration: 10s;  
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColors {
+    0% {
+        background: rgb(16, 44, 100);
+    }
+    25% {
+        background: rgb(206, 0, 103);
+    }
+    50% {
+        background: rgb(255, 174, 0);
+    }
+    75% {
+        background: rgb(190, 1, 1);
+    }
+    100% {
+        background: rgb(16, 44, 100);
     }
 }
 

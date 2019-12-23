@@ -69,18 +69,18 @@
     top: 0; right: 0;
 }
 
-.site-main-background-text{
+.site-main-background-text {
     position: absolute;
     top: 0; left: 0%; bottom: 0; right: 0;
     padding: 8em 4em 8em 4em;
     z-index: 2;
 }
 
-.site-main-background-text p{
+.site-main-background-text p {
     font-size: 0.7em;
 }
 
-.signup-button{
+.signup-button {
     display: block;
     width: 6em;
     margin: 3em 2em 0 auto;
@@ -92,6 +92,6 @@
     color: var(--color-link-default);
 }
 
-.signup-button:hover{
+/* .signup-button:hover {
     background: var(--color-on-hover);
-}
+} */
