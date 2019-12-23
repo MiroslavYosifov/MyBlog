@@ -46,7 +46,7 @@
 }
 
 .gallery li.portrait:before {
-    background: red;
+    background: rgb(13, 13, 59);
     padding-top: 200%;
 }
 

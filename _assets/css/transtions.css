@@ -26,6 +26,16 @@
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 } */
 
+/* Main Background */
+
+.site-main-background .slides.current img {
+    transition: right 0.3s ease-in;
+}
+
+.site-main-background .slides img {
+    transition: right 0.3s ease-in;
+}
+
 /* Sidebar */
 .site-sidebar-categories li {
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
