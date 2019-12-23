@@ -9,7 +9,7 @@
         <script src="{{ site.baseurl }}/scripts/space-page.js"></script>
         <script src="{{ site.baseurl }}/scripts/modal.js"></script>
     </head>
-    <body onload="changeSlideAuto()" class="
+    <body onscroll="increaseHeader()" onload="changeSlideAuto()" class="
         {% if page.title %}page page-{{ page.title | slugify }}{% endif %}
         {% if post.title %}post{% endif %}
         {% if page.home %}home{% endif %}">

@@ -70,7 +70,6 @@ body > div.site > header > nav > a {
     margin-bottom: 0.2em;
 }
 
-
 .site-nav > ul > li ul > li a {
     background: var(--color-on-hover);
 }

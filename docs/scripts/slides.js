@@ -39,7 +39,6 @@ function changeSlide (num) {
 
 function changeSlideAuto(){
     let body = document.getElementsByTagName('body')[0];
-
     if(body.className.trim(' ') === "page page-about"){
         console.log('HI');
         let currentSlide = document.getElementsByClassName('current')[0];

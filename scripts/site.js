@@ -15,5 +15,10 @@ function showNav(){
     }
 }
 
-
-
+function increaseHeader() {
+    if (window.scrollY !== 0){
+        document.getElementsByClassName('site-header')[0].className = "site-header active";
+    } else {
+        document.getElementsByClassName('site-header')[0].className = "site-header";
+    }
+}

@@ -5,8 +5,9 @@
     top: 0; left: 0;
     z-index: 10;
     width: 100%;
-    padding: 0 3em 0 3em;
-    margin: 0.8em auto;
+    padding: 0.2em 3em 0.2em 3em;
+    margin: 0 auto;
+    transform: translateY(50%);
     border: 1px solid var(--color-border-default);
     background: var( --color-link-default);
     box-shadow: 0 0 2em black, 0 0 2em black;
